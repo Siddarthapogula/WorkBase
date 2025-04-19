@@ -2,7 +2,10 @@
   "name": "@./source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx dev",
+    "build": "nx build"
+  },
   "private": true,
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
